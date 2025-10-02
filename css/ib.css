@@ -100,8 +100,9 @@ li.noStyle {
     width: 600px;
     font-weight: bold;
     margin-top: 9px;
-    margin-left: 200px;
     font-family: Georgia;
+    margin-left: auto;
+    margin-right: auto;
 }
 .word {
     color: rgb(228, 38, 38);
@@ -130,7 +131,7 @@ textarea::placeholder {
 }
 .right-container {
     background-color: black;
-    height: 800px;
+    height: 100%;
     display: flex;
 }
 .right-word {
@@ -143,7 +144,7 @@ textarea::placeholder {
     width: 100%;
     margin: 0;
 }
-.footer {
+footer {
     height: 13vh;
     width: 100%;
     background-color: rgb(238, 172, 179);
@@ -174,4 +175,17 @@ form select {
     width: calc((100% - 30px)/2);
     height: 50px;
 }
-
+@media (max-width: 1200px) {
+    .main {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    .center {
+        width: 100%;
+    }
+}
