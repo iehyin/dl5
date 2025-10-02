@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
     background-color: rgb(255, 249, 249);
     height: 100vh;
@@ -15,7 +19,7 @@ header {
     width: 100%;
 }
 .logo {
-    height: 20px;
+    height: 30px;
     color: rgb(176, 45, 56);
     text-shadow: 5px 9px 2px rgb(255, 145, 156);
     width: 100%;
@@ -27,6 +31,8 @@ header {
     margin: 0;
     text-align: center;
     border-top: 1px solid rgb(172, 79, 88);
+    height: 45px;
+    display: flex;
 }
 .menu {
     display: flex;                  
@@ -66,6 +72,7 @@ li.noStyle {
 }
 .left {
      width: 250px;
+     margin-top: 5px;
 }
 .left-content {
     display: flex;
@@ -133,6 +140,7 @@ textarea::placeholder {
     background-color: black;
     height: 91%;
     display: flex;
+    margin-top: 10px;
 }
 .right-word {
     color: aliceblue;
