@@ -1,0 +1,161 @@
+
+.container {
+    background-color: rgb(255, 249, 249);
+    height: 100vh;
+    text-align: center;
+    border: 1px solid rgb(105, 0, 0);
+}
+header {
+    height: 3vh;
+    width: 100%;
+    margin-bottom:20px ;
+}
+.middle {
+    height: 77vh;
+    width: 100%;
+}
+.logo {
+    height: 20px;
+    color: rgb(176, 45, 56);
+    text-shadow: 5px 9px 2px rgb(255, 145, 156);
+    width: 100%;
+    text-align: center;
+}
+.option {
+    background-color: rgb(255, 181, 181);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid rgb(172, 79, 88);
+}
+.menu {
+    display: flex;                  
+    align-items: center;           
+    background: rgb(255, 181, 181);
+    padding: 0px 5px;   
+    text-align: center;     
+    justify-content: center;
+    flex: 1 1 200px;
+   
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+ul.str {
+    flex-direction: column; 
+}
+li {
+    padding: 0px 30px;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+}
+li:nth-child(2),li:nth-child(3),li:nth-child(4),  li:nth-child(5) {
+    border-left: 2px solid blue;
+}
+li.noStyle {
+    all: unset;
+    list-style-type: disc;
+    display: list-item;
+}
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.left {
+     width: 250px;
+}
+.left-content {
+    display: flex;
+    display: block;
+    color: white;
+    width: 100%;
+    border-radius: 20px 20px;
+    padding: 1px;
+    background-color: rgb(238, 172, 179) ;
+    text-indent: 12px;
+    margin: 0px;
+    margin-top: 5px;
+    height: 25px;
+    flex: 1 1 300px;
+}
+.left-img img {
+    border-radius: 50%;
+    width: 100%;
+    box-shadow: 8px 15px 8px rgb(231, 182, 187);
+    margin-top: 10px;
+}
+.center {
+}
+.center-starte {
+    background-color: rgb(238, 172, 179);
+    padding: 5px;                       
+    letter-spacing: 33px;
+    font-size: 25px;
+    color: rgb(183, 51, 62);
+    width: 600px;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-left: 200px;
+    font-family: Georgia;
+}
+.word {
+    color: rgb(228, 38, 38);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.ip {
+    width: 400px; 
+    height: 35px; 
+    margin-top: 20px;
+}
+.myTable td {
+    padding: 10px 25px;
+}
+select {
+    width:410px;
+    height: 45px; 
+    margin-top: 20px;
+}
+textarea {
+    width: 870px;
+    height: 100px;
+    margin-top: 20px;
+}
+textarea::placeholder {
+    color: black;
+}
+.right {
+    width: 25%;
+
+}
+.right-container {
+    background-color: black;
+    height: 800px;
+    display: flex;
+}
+.right-word {
+    color: aliceblue;
+}
+.right-space {
+    margin-left: 30px;
+}
+.right-img img {
+    width: 100%;
+    margin: 0;
+}
+.footer {
+    height: 13vh;
+    width: 100%;
+    background-color: rgb(238, 172, 179);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+}
+
